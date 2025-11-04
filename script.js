@@ -207,6 +207,6 @@ var bottom_bar = new Image();
 bottom_bar.src =  'https://s2js.com/img/etc/flappybottom.png';
 
 var bird = new MySprite ('https://s2js.com/img/etc/flappybird.png');
-bird.x = myCanvas.width/3;
-bird.y= myCanvas.height/2;
+bird.x = myCanvas.width/4;
+bird.y= myCanvas.height/3;
 setInterval(Do_a_Frame, 1000 / FPS);
